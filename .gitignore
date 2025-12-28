@@ -1,0 +1,14 @@
+############################
+# Python / Virtual Envs
+############################
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+Lib/
