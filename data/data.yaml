@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['parking-attendant', 'person']
+
+roboflow:
+  workspace: noparking-pyveg
+  project: parking-attendant-detector
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/noparking-pyveg/parking-attendant-detector/2
