@@ -1,7 +1,7 @@
 ultralytics
 opencv-python
 numpy
-torch           # System dependent, see: https://pytorch.org/get-started/locally/
+#torch           # System dependent, see: https://pytorch.org/get-started/locally/
 matplotlib
 jupyter
 
