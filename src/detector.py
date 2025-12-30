@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import cv2
 import numpy as np
-from .config import MODEL_PATH, CLASS_NAMES
+from config import MODEL_PATH, CLASS_NAMES
 
 
 class ParkingAttendantDetector:

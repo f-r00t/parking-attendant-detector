@@ -1,8 +1,10 @@
 if __name__ == "__main__":
     import cv2
     import os
+    from detector import ParkingAttendantDetector
 
-    img_path = os.path.join(os.path.dirname(__file__), "..", "data", "images", "test", "sample.jpg")
+    run_dir = os.getcwd()
+    img_path = os.path.join(run_dir, "data", "sample.jpg")
     img = cv2.imread(img_path)
 
     detector = ParkingAttendantDetector()
