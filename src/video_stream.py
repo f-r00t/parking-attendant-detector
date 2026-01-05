@@ -1,6 +1,6 @@
 import cv2
-from .detector import ParkingAttendantDetector
-from .monitoring import FPSMeter, summarize_detections
+from detector import ParkingAttendantDetector
+from monitoring import FPSMeter, summarize_detections
 
 
 def run_video_stream(
