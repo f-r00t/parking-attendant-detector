@@ -5,7 +5,7 @@ from config import MODEL_PATH, CLASS_NAMES
 
 
 class ParkingAttendantDetector:
-    def __init__(self, model_path: str = MODEL_PATH, conf_threshold: float = 0.25):
+    def __init__(self, model_path: str = MODEL_PATH, conf_threshold: float = 0.55):
         self.model = YOLO(model_path)
         self.conf_threshold = conf_threshold
         self.class_names = CLASS_NAMES

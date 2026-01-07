@@ -24,7 +24,7 @@ class FPSMeter:
 
 def summarize_detections(detections):
     total = len(detections)
-    attendants = sum(1 for d in detections if d["cls"] == 1)
+    attendants = sum(1 for d in detections if d["cls"] == 0)
     others = total - attendants
     return {
         "total": total,
